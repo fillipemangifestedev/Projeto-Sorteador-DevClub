@@ -86,3 +86,28 @@ button:hover {
     background-color: red;
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 28px;
+        margin: 0 0 30px 0;
+    }
+
+    div {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    input,
+    button {
+        width: 100%;
+        /* Inputs e botão ocupam 100% da largura em telas menores */
+        max-width: 300px;
+        /* Limite máximo para não ficarem muito grandes */
+    }
+}
