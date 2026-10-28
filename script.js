@@ -12,9 +12,13 @@ function numberRandom() {
     const min = Math.ceil(Number(numberMin.value));
     const max = Math.floor(Number(numberMax.value));
 
-    const result = Math.floor(Math.random() * (max - min + 1)) + min;
+    if (min >= max) {
+        alert("VALOR INVÁLID0")
+    } else {
+        const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
-    alert(result);
+        alert(result);
+    }
 
 }
 
