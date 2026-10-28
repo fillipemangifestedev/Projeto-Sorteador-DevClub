@@ -1,3 +1,4 @@
+/*1° Parte*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
@@ -24,6 +25,7 @@ main {
     width: 100%;
 }
 
+/*2° Parte*/
 h2 {
     margin: 100px 0 20px 0;
     color: #ffffff;
@@ -32,6 +34,7 @@ h2 {
     line-height: 100%;
 }
 
+/*3° Parte*/
 div {
     display: flex;
     justify-content: center;
@@ -67,6 +70,7 @@ input:focus {
     box-shadow: 0 0 5px red;
 }
 
+/*4° Parte*/
 button {
     width: 342px;
     height: 72px;
